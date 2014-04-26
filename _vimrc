@@ -94,10 +94,7 @@ set mouse=a
 set history=100
 set undolevels=1000
 
-" autocmd Flake8
-" autocmd BufWritePost *.py call Flake8()
-
-" save and run
+" save and run python using short key..
 map <leader>r :w<CR>:!python %<CR>
 
 " color..
